@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Form</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="main-ctr">
+      <div class="left img-ctr">
+        <div class="logo-brand">
+          <img src="./images/odin-lined.png" alt="odin logo" class="logo" />
+          <div class="brand">Odin</div>
+        </div>
+        <div class="img-credit">
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </div>
+      </div>
+
+      <section class="right form-section">
+        <h1>
+          This is not real online service, You know you need something like this in your
+          life to help you realize your deepest dreams.<br />
+          Signup <em>now</em> to get started.
+        </h1>
+
+        <p>you <em>know</em> you want it</p>
+
+        <form>
+          <section class="form-inputs-section">
+            <h2>Let&apos;s do this!</h2>
+
+            <div class="form-inputs">
+              <div class="label-input">
+                <label for="first_name">first name</label>
+                <input
+                  placeholder=" "
+                  type="text"
+                  id="first_name"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+
+              <div class="label-input">
+                <label for="last_name">last name</label>
+                <input
+                  placeholder=" "
+                  type="text"
+                  id="last_name"
+                  autocomplete="family-name"
+                  required
+                />
+              </div>
+
+              <div class="label-input">
+                <label for="email">email</label>
+                <input
+                  placeholder=" "
+                  type="email"
+                  id="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="label-input">
+                <label for="phone_number">phone number</label>
+                <input
+                  placeholder=" "
+                  type="tel"
+                  inputmode="tel"
+                  id="phone_number"
+                  autocomplete="mobile"
+                  required
+                />
+              </div>
+
+              <div class="label-input">
+                <label for="password">password</label>
+                <input placeholder=" " type="password" id="password" required />
+              </div>
+
+              <div class="label-input">
+                <label for="password_confirmation">password confirmation</label>
+                <input
+                  placeholder=" "
+                  type="password"
+                  id="password_confirmation"
+                  required
+                />
+              </div>
+            </div>
+          </section>
+
+          <button type="submit">create account</button>
+
+          <p class="login-remainder">Already have an account? <a href="#">Log in</a></p>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
